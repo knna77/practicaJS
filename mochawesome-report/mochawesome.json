@@ -5,8 +5,8 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-02-12T11:03:44.769Z",
-    "end": "2022-02-12T11:03:44.778Z",
+    "start": "2022-02-12T18:46:16.645Z",
+    "end": "2022-02-12T18:46:16.654Z",
     "duration": 9,
     "testsRegistered": 2,
     "passPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "5b66de6e-4967-46fb-a093-759e9cdacc51",
+      "uuid": "d68174af-696d-4580-ab5a-7bf5ba6c2b03",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6544d559-ef6d-412e-a765-964f07e71510",
+          "uuid": "1f830783-f086-445a-bacb-e98a24c24934",
           "title": "test 1 ordena noms",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -38,7 +38,7 @@
               "title": "case 01",
               "fullTitle": "test 1 ordena noms case 01",
               "timedOut": false,
-              "duration": 1,
+              "duration": 2,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,26 +47,26 @@
               "context": null,
               "code": "expect(o1.ordena_noms(students)).to.eql(ordenaNoms);",
               "err": {},
-              "uuid": "85f428cd-075d-43f9-adb4-4e4e03b772bf",
-              "parentUUID": "6544d559-ef6d-412e-a765-964f07e71510",
+              "uuid": "f007dd02-61d5-4f19-b7c5-4ff8db132ee4",
+              "parentUUID": "1f830783-f086-445a-bacb-e98a24c24934",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "85f428cd-075d-43f9-adb4-4e4e03b772bf"
+            "f007dd02-61d5-4f19-b7c5-4ff8db132ee4"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 2,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "631d6260-5350-4b23-890b-7e5e844810a8",
+          "uuid": "bc58be33-07ee-42d3-8590-e4767ded7f0c",
           "title": "Test 2 ordena dates",
           "fullFile": "/home/knna/examenPPS/PPS_examen_js/test/examen.spec.js",
           "file": "/test/examen.spec.js",
@@ -77,7 +77,7 @@
               "title": "case 02",
               "fullTitle": "Test 2 ordena dates case 02",
               "timedOut": false,
-              "duration": 4,
+              "duration": 3,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -86,20 +86,20 @@
               "context": null,
               "code": "expect(o2.ordena_dates(students)).to.eql(ordenaDates);",
               "err": {},
-              "uuid": "a6ba475e-b3e9-497c-abb0-f36653ce4753",
-              "parentUUID": "631d6260-5350-4b23-890b-7e5e844810a8",
+              "uuid": "d8201b3b-9b8e-4613-916e-cb4e62643554",
+              "parentUUID": "bc58be33-07ee-42d3-8590-e4767ded7f0c",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a6ba475e-b3e9-497c-abb0-f36653ce4753"
+            "d8201b3b-9b8e-4613-916e-cb4e62643554"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4,
+          "duration": 3,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
